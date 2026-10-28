@@ -81,6 +81,7 @@ sup { font-size: 0.7em; }
 .hero-copy > .text-link { margin-top: 1.5rem; }
 .hero-figure { width: calc(100% + var(--figure-overlap)); min-width: 0; margin-left: calc(-1 * var(--figure-overlap)); padding-top: 4rem; }
 .network-art { width: 100%; }
+.hero-image { display: block; width: 100%; height: auto; }
 .interface-mark { fill: var(--clay); }
 .art-label { font-family: var(--font-mono); font-size: 9px; letter-spacing: 1px; }
 figcaption { display: flex; gap: 0.75rem; align-items: baseline; color: var(--muted); font-family: var(--font-mono); font-size: 0.625rem; line-height: 1.6; }
