@@ -11,6 +11,8 @@
   setExpanded(false);
   button.hidden = false;
   button.addEventListener('click', () => {
-    setExpanded(button.getAttribute('aria-expanded') !== 'true');
+    const expanded = button.getAttribute('aria-expanded') !== 'true';
+    setExpanded(expanded);
+    if (!expanded) button.scrollIntoView({ block: 'nearest', behavior: 'instant' });
   });
 })();
