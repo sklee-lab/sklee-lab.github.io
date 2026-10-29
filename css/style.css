@@ -440,3 +440,7 @@ figcaption { display: flex; gap: 0.75rem; align-items: baseline; color: var(--mu
 .research-figure-stack { display: grid; gap: 2rem; margin-top: 2rem; }
 .research-illustration h4 { margin: 0; color: var(--olive); font-size: 1.125rem; font-weight: 500; }
 .research-illustration .research-figure { margin-top: 0.75rem; }
+
+.research-publication-links { display: flex; flex-wrap: wrap; gap: 0 1.5rem; }
+.research-publication-links .text-link { max-width: 100%; }
+.research-publication-links .text-link span { flex-shrink: 0; }
