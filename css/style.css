@@ -453,3 +453,5 @@ figcaption { display: flex; gap: 0.75rem; align-items: baseline; color: var(--mu
 .publication-document main > .publications-section { padding-top: 2rem; }
 
 .member-photo-placeholder { display: grid; place-items: center; background: var(--paper-deep); color: var(--muted); font-size: 0.875rem; }
+
+.wordmark .ibs-initial { color: #b32d2d; }
