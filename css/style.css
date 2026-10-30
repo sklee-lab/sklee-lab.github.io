@@ -448,3 +448,6 @@ figcaption { display: flex; gap: 0.75rem; align-items: baseline; color: var(--mu
 @media (min-width: 761px) {
   .research-figure img { max-width: 460px; }
 }
+
+/* Keep the publication archive close to navigation without a page banner. */
+.publication-document main > .publications-section { padding-top: 2rem; }
