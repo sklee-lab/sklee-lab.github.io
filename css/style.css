@@ -459,3 +459,23 @@ figcaption { display: flex; gap: 0.75rem; align-items: baseline; color: var(--mu
 .member-photo-placeholder { display: grid; place-items: center; background: var(--paper-deep); color: var(--muted); font-size: 0.875rem; }
 
 .wordmark .ibs-initial { color: #b32d2d; }
+
+/* Event albums keep the full image visible at every viewport size. */
+.album-cover { display: block; width: min(100%, 360px); margin-top: 1.5rem; padding: 0; border: 1px solid var(--line); background: var(--paper-deep); color: var(--ink); font: inherit; text-align: left; cursor: pointer; }
+.album-cover-label { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; padding: 1rem; }
+.album-cover-label > span:last-child { margin-left: auto; color: var(--muted); font-size: .875rem; }
+.album-cover:hover { border-color: var(--teal); }
+.album-cover:focus-visible, .album-control:focus-visible { outline: 3px solid var(--clay); outline-offset: 3px; }
+.album-dialog { width: min(1000px, calc(100% - 2rem)); max-width: none; max-height: calc(100dvh - 2rem); margin: auto; padding: 0; border: 1px solid var(--line); background: var(--paper); color: var(--ink); overflow: auto; }
+.album-dialog::backdrop { background: rgb(0 0 0 / .78); }
+.album-panel { padding: 1rem; }
+.album-header { display: flex; gap: 1rem; align-items: center; justify-content: space-between; margin-bottom: .75rem; }
+.album-header h2 { font-size: clamp(1rem, 2.5vw, 1.5rem); }
+.album-control { min-width: 44px; min-height: 44px; padding: .5rem .75rem; border: 1px solid var(--line); background: var(--paper-deep); color: var(--ink); font: inherit; cursor: pointer; }
+.album-control:hover { border-color: var(--teal); }
+.album-viewer { margin: 0; }
+.album-viewer img { display: block; width: 100%; height: min(65dvh, 720px); object-fit: contain; touch-action: pan-y; }
+.album-status { margin-top: .5rem; text-align: center; font-family: var(--font-mono); font-size: .875rem; }
+.album-navigation { display: flex; justify-content: space-between; gap: 1rem; margin-top: .75rem; }
+body.album-open { overflow: hidden; }
+@media (max-width: 540px) { .album-panel { padding: .75rem; } .album-dialog { width: calc(100% - 1rem); max-height: calc(100dvh - 1rem); } .album-viewer img { height: 58dvh; } }
