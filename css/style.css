@@ -288,6 +288,10 @@ figcaption { display: flex; gap: 0.75rem; align-items: baseline; color: var(--mu
 .gallery-index { position: absolute; top: 1rem; left: 1rem; color: var(--teal); }
 .gallery-placeholder .brand-dot { position: absolute; right: 1rem; bottom: 1rem; }
 .gallery-image { display: block; height: auto; object-fit: cover; }
+.gallery-event { margin-top: 3rem; margin-bottom: 4rem; }
+.gallery-event > h3 { font-size: 1.5rem; }
+.gallery-event .gallery-grid { margin-top: 1.5rem; align-items: start; }
+.gallery-event .gallery-image { aspect-ratio: auto; }
 .gallery-caption { display: block; margin-top: 1rem; font-family: var(--font-sans); font-size: 0.875rem; }
 .gallery-caption h3 { color: var(--ink); font-size: 1.125rem; }
 .gallery-caption p { margin-top: 0.4rem; color: var(--muted); }
