@@ -183,6 +183,7 @@ figcaption { display: flex; gap: 0.75rem; align-items: baseline; color: var(--mu
 .citation-authors { margin-top: 0.75rem; color: var(--muted); font-size: 0.9375rem; line-height: 1.75; }
 .citation-journal { margin-top: 0.45rem; color: var(--teal); font-size: 0.9375rem; }
 .citation-note { margin-top: 0.75rem; color: var(--clay); font-family: var(--font-mono); font-size: 0.8125rem; }
+#publication-syntrogo .citation-note .text-link { font-size: 0.9375rem; }
 .book-chapters-section { padding-top: 0; }
 .publication-list { margin: 2.5rem 0 1.75rem; padding: 0; list-style: none; }
 .publication-list li { display: grid; grid-template-columns: 4rem 1.5fr 0.85fr 7.5rem; gap: 2rem; align-items: baseline; border-top: 1px solid var(--line); padding-block: 1.75rem; }
