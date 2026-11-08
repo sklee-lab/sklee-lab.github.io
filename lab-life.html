@@ -37,6 +37,14 @@
         <p class="eyebrow section-label">A shared record</p>
         <h2 id="gallery-title">Life in the lab</h2>
         <p class="gallery-introduction">Conferences and shared moments from our scientific community.</p>
+        <section class="gallery-event" aria-labelledby="kps-2026-title">
+          <h3 id="kps-2026-title">KPS 2026 (<span lang="ko">대한생리학회</span>)</h3>
+          <button class="album-cover" type="button" data-album-open aria-haspopup="dialog" aria-controls="kps-album" aria-label="Open KPS 2026 presentation photograph">
+            <img class="gallery-image" src="images/lab-life/kps-2026-presentation.jpg" alt="Presentation at the 2026 Korean Physiological Society meeting, with a speaker beside the title slide" width="4032" height="3024" decoding="async">
+            <span class="album-cover-label">View photograph <span aria-hidden="true">↗</span> <span>1 photograph</span></span>
+          </button>
+          <noscript><p><a href="images/lab-life/kps-2026-presentation.jpg">View KPS 2026 presentation photograph</a></p></noscript>
+        </section>
         <section class="gallery-event" aria-labelledby="fens-2026-title">
           <h3 id="fens-2026-title">FENS 2026 (Barcelona, Spain)</h3>
           <button class="album-cover" type="button" data-album-open aria-haspopup="dialog" aria-controls="fens-album" aria-label="Open FENS 2026 album, 3 photographs">
@@ -74,6 +82,12 @@
       </section>
     </main>
 
+    <dialog class="album-dialog" id="kps-album" aria-labelledby="kps-album-title">
+      <div class="album-panel">
+        <header class="album-header"><h2 id="kps-album-title">KPS 2026 (<span lang="ko">대한생리학회</span>)</h2><button type="button" class="album-control" data-album-close aria-label="Close photograph" autofocus>×</button></header>
+        <figure class="album-viewer"><img alt="" width="4032" height="3024"><figcaption class="album-status" aria-live="polite" aria-atomic="true"><span>1 / 1</span></figcaption></figure>
+      </div>
+    </dialog>
     <dialog class="album-dialog" id="fens-album" aria-labelledby="album-title">
       <div class="album-panel">
         <header class="album-header"><h2 id="album-title">FENS 2026 (Barcelona, Spain)</h2><button type="button" class="album-control" data-album-close aria-label="Close album" autofocus>×</button></header>
@@ -81,7 +95,7 @@
         <div class="album-navigation"><button type="button" class="album-control" data-album-previous aria-label="Previous photograph">← <span>Previous</span></button><button type="button" class="album-control" data-album-next aria-label="Next photograph"><span>Next</span> →</button></div>
       </div>
     </dialog>
-    <script src="js/lab-life.js?v=20261102-album" defer></script>
+    <script src="js/lab-life.js?v=20261108-kps" defer></script>
 
     <footer class="site-footer" id="site-footer" aria-labelledby="footer-title">
       <div class="container footer-grid">
